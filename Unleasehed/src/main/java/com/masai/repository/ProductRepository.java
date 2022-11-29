@@ -1,5 +1,9 @@
 package com.masai.repository;
 
-public class ProductRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.masai.model.Product;
+
+public interface ProductRepository extends JpaRepository<Product, Integer>{
 
 }

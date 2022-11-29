@@ -9,11 +9,16 @@ import lombok.Data;
 
 @Data
 @Entity
-public class ProductDetails {
-	
+public class Admin {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Integer produtDetailsId;
-	private String productDescription;
+	private Integer adminId;
+	private String adminName;
+	private String adminEmail;
+	private String city;
+	private String country;
+	private String state;
+	private Integer pincode;
 	
 }

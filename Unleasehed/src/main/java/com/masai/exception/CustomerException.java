@@ -1,12 +1,13 @@
 package com.masai.exception;
 
-public class ProductException extends Exception {
+public class CustomerException extends Exception {
 
-	public ProductException() {
+	
+	public CustomerException() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public ProductException(String message) {
+	public CustomerException(String message) {
 		super(message);
 		// TODO Auto-generated constructor stub
 	}
